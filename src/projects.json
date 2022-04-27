@@ -4,19 +4,19 @@
         "name":"Central Auto Parts",
         "image": "",
         "description":"Used Auto Parts Dealer in Denver"
-    }
+    },
     {
         "id":2,
         "name":"Chason Energy",
         "image":"",
         "description":"Engineering consultant in court cases and building development"
-    }
+    },
     {
         "id":3,
         "name":"MaxFund",
         "image":"",
         "description":"no kill cat and dog adoption center and veterinary clinic"
-    }
+    },
     {
         "id":4,
         "name":"Summit Golf Tour",
