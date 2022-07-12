@@ -45,3 +45,8 @@ cursor: pointer;
 .card > .remove:hover {
 color: #d50000;
 }
+
+.cbody{
+    padding: 10px;
+    color: red;
+}
