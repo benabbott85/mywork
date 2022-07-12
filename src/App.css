@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.testing{
+  margin-left: 400px;
+  margin-top: -340px;
+}
+
+.testing2{
+  margin-left: 800px;
+  margin-top: -340px;
+}
+
+body{
+  background-image: url(./assets/bg1.jpg);
+  background-repeat: no-repeat;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
