@@ -36,12 +36,26 @@
 .testing2{
   margin-left: 800px;
   margin-top: -340px;
+  
 }
 
+.max{
+  width: 100%;
+}
+
+.maxfund:hover{
+  transform: scale(1.2)
+}
+
+.maxlink{
+  text-align:center;
+}
 body{
   background-image: url(./assets/bg1.jpg);
   background-repeat: no-repeat;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
