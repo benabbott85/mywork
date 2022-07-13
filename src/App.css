@@ -41,14 +41,36 @@
 
 .max{
   width: 100%;
+  margin-top: 15px;
 }
 
 .maxfund:hover{
   transform: scale(1.2)
 }
 
+.maxbtn{
+  margin-top: 35px;
+  margin-left: 120px;
+  padding: 8px;
+}
+
 .maxlink{
   text-align:center;
+}
+
+.maxtitle{
+  text-align:center;
+  color:red
+}
+
+.contain{
+  margin-left:120px
+}
+
+.maxfund{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
 }
 body{
   background-image: url(./assets/bg1.jpg);
