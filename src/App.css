@@ -48,6 +48,10 @@
   transform: scale(1.2)
 }
 
+.summit:hover{
+  transform: scale(1.2)
+}
+
 .maxbtn{
   margin-top: 35px;
   margin-left: 120px;
@@ -83,13 +87,17 @@ body{
 }
 
 .web{
-  margin-left: 625px;
+  margin-left: 605px;
   color: blue;
 
 }
 .denver{
-margin-left: 640px;
+margin-left: 635px;
 color: blue;
+}
+
+.me{
+  color:red
 }
 @keyframes App-logo-spin {
   from {
