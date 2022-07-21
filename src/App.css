@@ -77,8 +77,20 @@ body{
   background-repeat: no-repeat;
 }
 
+.ben{
+  margin-left: 600px;
+  color: blue
+}
 
+.web{
+  margin-left: 625px;
+  color: blue;
 
+}
+.denver{
+margin-left: 640px;
+color: blue;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

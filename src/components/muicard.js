@@ -16,14 +16,14 @@ function testCards(){
       </Card>
     </Col>
     <Col className="testing"lg={3}>
-      <Card>
-        <CardTitle>Test</CardTitle>
+      <Card className="summit">
+        <CardTitle className="maxtitle"><strong>Summit Junior Tour</strong></CardTitle>
         <CardBody>lorem ipsum</CardBody>
       </Card>
     </Col>
     <Col className="testing2"lg={3}>
       <Card>
-        <CardTitle>Test</CardTitle>
+        <CardTitle className="maxtitle"><strong>Mod Properties</strong></CardTitle>
         <CardBody>lorem ipsum</CardBody>
       </Card>
     </Col>
