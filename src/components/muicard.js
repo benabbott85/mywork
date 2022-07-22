@@ -13,7 +13,7 @@ function testCards(){
         <CardTitle className="maxtitle"><strong>MaxFund Animal Adoption Center</strong> </CardTitle>
         <CardImg className="max"src={Max}></CardImg>
         {/* <h5 className="maxlink">www.maxfund.org</h5> */}
-        
+        <CardBody className="maxtext">Animal Adoption Agency in Denver, CO</CardBody>
         <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
       </Card>
     </Col>
@@ -21,6 +21,7 @@ function testCards(){
       <Card className="summit">
         <CardTitle className="maxtitle"><strong>Summit Junior Tour</strong></CardTitle>
         <CardImg className="max"src={Summit}></CardImg>
+        <CardBody className="summittext">Junior Golf Tour in Colorado</CardBody>
         <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
         {/* <CardBody>lorem ipsum</CardBody> */}
       </Card>
@@ -29,6 +30,7 @@ function testCards(){
       <Card className="mod">
         <CardTitle className="maxtitle"><strong>Mod Properties</strong></CardTitle>
         <CardImg className="modimg"src={Mod}></CardImg>
+        <CardBody className="modtext">Property Management Firm in Denver, CO</CardBody>
         <a href="https://modprop.info/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
 
         {/* <CardBody>lorem ipsum</CardBody> */}
