@@ -30,12 +30,13 @@
 
 .testing{
   margin-left: 400px;
-  margin-top: -340px;
+  margin-top: -365px;
+  
 }
 
 .testing2{
   margin-left: 800px;
-  margin-top: -340px;
+  margin-top: -365px;
   
 }
 
@@ -44,12 +45,30 @@
   margin-top: 15px;
 }
 
+.modimg{
+  width: 100%;
+  margin-top: 15px;
+  min-height: 180px;
+}
+
 .maxfund:hover{
+  transform: scale(1.2)
+}
+
+.mod:hover{
   transform: scale(1.2)
 }
 
 .summit:hover{
   transform: scale(1.2)
+}
+
+.summit{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  
+  /* margin-top: -200px; */
 }
 
 .maxbtn{
@@ -72,6 +91,13 @@
 }
 
 .maxfund{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  margin-top: 2000px;
+}
+
+.mod{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px;

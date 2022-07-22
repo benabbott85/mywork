@@ -1,6 +1,8 @@
 import React from "react";
 import {Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button,UncontrolledCollapse,Collapse, Alert} from "reactstrap"
 import Max from "../assets/maxps.jpg"
+import Summit from "../assets/summitps.jpg"
+import Mod from "../assets/modps.jpg"
 function testCards(){
   return(
     <>
@@ -18,13 +20,18 @@ function testCards(){
     <Col className="testing"lg={3}>
       <Card className="summit">
         <CardTitle className="maxtitle"><strong>Summit Junior Tour</strong></CardTitle>
-        <CardBody>lorem ipsum</CardBody>
+        <CardImg className="max"src={Summit}></CardImg>
+        <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
+        {/* <CardBody>lorem ipsum</CardBody> */}
       </Card>
     </Col>
     <Col className="testing2"lg={3}>
-      <Card>
+      <Card className="mod">
         <CardTitle className="maxtitle"><strong>Mod Properties</strong></CardTitle>
-        <CardBody>lorem ipsum</CardBody>
+        <CardImg className="modimg"src={Mod}></CardImg>
+        <a href="https://modprop.info/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
+
+        {/* <CardBody>lorem ipsum</CardBody> */}
       </Card>
     </Col>
   </Row>
