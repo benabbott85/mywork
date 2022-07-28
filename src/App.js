@@ -5,6 +5,8 @@ import Projects from './components/projects'
 import Card from "./components/muicard"
 import Hero from "./components/hero"
 import Carousel from './components/carousel'
+import Footer from './components/footer'
+import Contact from './components/contact'
 function App() {
   return (
     <div className="">
@@ -14,7 +16,7 @@ function App() {
       <Hero/>
       <br/>
       <Card/>
-     
+     <Footer/>
     </div>
   );
 }

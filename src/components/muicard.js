@@ -6,6 +6,7 @@ import Mod from "../assets/modps.jpg"
 function testCards(){
   return(
     <>
+    <h2 className="work"><strong>My Work</strong></h2>
     <Container className="contain">
   <Row>
     <Col lg={3}>
@@ -32,6 +33,7 @@ function testCards(){
         <CardImg className="modimg"src={Mod}></CardImg>
         <CardBody className="modtext">Property Management Firm in Denver, CO</CardBody>
         <a href="https://modprop.info/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
+        
 
         {/* <CardBody>lorem ipsum</CardBody> */}
       </Card>

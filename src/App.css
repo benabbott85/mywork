@@ -75,6 +75,9 @@
   margin-top: 35px;
   margin-left: 120px;
   padding: 8px;
+  background:blue;
+  color: red;
+  font-weight: bold
 }
 
 .maxlink{
@@ -101,6 +104,7 @@
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px;
+  
 }
 
 .modtext{
@@ -137,6 +141,25 @@ color: blue;
 
 .me{
   color:red
+}
+
+.footalign{
+  margin-left: 600px;
+}
+
+.foot{
+  color: blue;
+  font-size: 1.5rem
+}
+
+.linkedin{
+  color: blue;
+  margin-left: 12px;
+}
+
+.work{
+  color: blue;
+  margin-left: 630px
 }
 @keyframes App-logo-spin {
   from {
