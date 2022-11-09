@@ -41,24 +41,31 @@ function testCards(){
   {/* </Row> */} 
   
 {/* </Container> */}
+<h2 className="work"><strong>My Work</strong></h2>
 <Container>
   <Row>
     <Col md={4}>
+      <a href="https://modprop.info/" target='_blank' rel="noreferrer">
       <Card>
         <div className="modprop">
-        Testing
+       
         </div>
       </Card>
+      </a>
     </Col>
     <Col md={4}>
+      <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer">
       <Card>
-        Testing
+        <div className="golf"></div>
       </Card>
+      </a>
     </Col>
     <Col md={4}>
+    <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer">
       <Card>
-        Testing
+        <div className="fund"></div>
       </Card>
+      </a>
     </Col>
   </Row>
 </Container>

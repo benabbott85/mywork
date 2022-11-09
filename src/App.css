@@ -51,7 +51,7 @@
   max-height: 180px;
 }
 
-.maxfund:hover{
+.fund:hover{
   transform: scale(1.2)
 }
 
@@ -59,7 +59,7 @@
   transform: scale(1.2)
 }
 
-.summit:hover{
+.golf:hover{
   transform: scale(1.2)
 }
 
@@ -175,6 +175,21 @@ color: blue;
   background-size: cover;
   height: 500px;
   background-position: center;
+  box-shadow: 10px 5px 5px gray;
+}
+.golf{
+  background-image:url(./assets/summitps.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  box-shadow: 10px 5px 5px gray;
+}
+.fund{
+  background-image:url(./assets/maxps.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  box-shadow: 10px 5px 5px gray;
 }
 @keyframes App-logo-spin {
   from {
