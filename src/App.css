@@ -63,6 +63,10 @@
   transform: scale(1.1)
 }
 
+.central:hover{
+  transform: scale(1.1)
+}
+
 .summit{
   border: 1px solid;
   padding: 10px;
@@ -192,6 +196,17 @@ color: blue;
   background-image:url(./assets/maxps.jpg);
   background-size: cover;
   height: 400px;
+  
+  background-position: center;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.central{
+  background-image:url(./assets/cent.jpg);
+  background-size: cover;
+  height: 380px;
+  
+  margin-top:20px;
   
   background-position: center;
   box-shadow: 10px 5px 5px gray;

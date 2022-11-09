@@ -47,9 +47,9 @@ function testCards(){
     </Col>
     <Col md={2}></Col>
     <Col md={5}>
-      <a href="https://modprop.info/" target='_blank' rel="noreferrer">
+      <a href="https://www.usedautopartsdenver.co/" target='_blank' rel="noreferrer">
       <Card>
-        <div className="modprop">
+        <div className="central">
        
         </div>
       </Card>
