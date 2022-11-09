@@ -52,15 +52,15 @@
 }
 
 .fund:hover{
-  transform: scale(1.2)
+  transform: scale(1.1)
 }
 
 .modprop:hover{
-  transform: scale(1.2)
+  transform: scale(1.1)
 }
 
 .golf:hover{
-  transform: scale(1.2)
+  transform: scale(1.1)
 }
 
 .summit{
@@ -129,10 +129,12 @@ body{
   margin-left: 600px;
   color: blue
 }
-
+.design{
+  color:black
+}
 .web{
-  margin-left: 605px;
-  color: blue;
+  margin-left: 600px;
+  
 
 }
 .denver{
@@ -162,7 +164,7 @@ color: blue;
 
 .work{
   color: blue;
-  margin-left: 630px
+  margin-left: 600px
 }
 
 .logo{
@@ -173,24 +175,34 @@ color: blue;
 .modprop{
   background-image:url(./assets/modps.jpg);
   background-size: cover;
-  height: 500px;
+  height: 400px;
+  
   background-position: center;
   box-shadow: 10px 5px 5px gray;
 }
 .golf{
   background-image:url(./assets/summitps.jpg);
   background-size: cover;
-  height: 500px;
+  height: 400px;
+  
   background-position: center;
   box-shadow: 10px 5px 5px gray;
 }
 .fund{
   background-image:url(./assets/maxps.jpg);
   background-size: cover;
-  height: 500px;
+  height: 400px;
+  
   background-position: center;
   box-shadow: 10px 5px 5px gray;
 }
+
+.mypic{
+  height: 350px;
+  width: 350px;
+ 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
