@@ -55,7 +55,7 @@
   transform: scale(1.2)
 }
 
-.mod:hover{
+.modprop:hover{
   transform: scale(1.2)
 }
 
@@ -120,8 +120,9 @@
   padding-top:10px
 }
 body{
-  background-image: url(./assets/bg1.jpg);
+  background-image: url(./assets/newback.png);
   background-repeat: no-repeat;
+  background-size: cover
 }
 
 .ben{
@@ -140,16 +141,18 @@ color: blue;
 }
 
 .me{
-  color:red
+  color:red;
+ 
 }
 
 .footalign{
-  margin-left: 600px;
+  margin-left: 620px;
 }
 
 .foot{
   color: blue;
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  
 }
 
 .linkedin{
@@ -160,6 +163,18 @@ color: blue;
 .work{
   color: blue;
   margin-left: 630px
+}
+
+.logo{
+  width:95px;
+  height: 75px;
+}
+
+.modprop{
+  background-image:url(./assets/modps.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
 }
 @keyframes App-logo-spin {
   from {

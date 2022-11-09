@@ -6,7 +6,7 @@ import Mod from "../assets/modps.jpg"
 function testCards(){
   return(
     <>
-    <h2 className="work"><strong>My Work</strong></h2>
+    {/* <h2 className="work"><strong>My Work</strong></h2>
     <Container className="contain">
   <Row>
     <Col lg={3}>
@@ -14,20 +14,20 @@ function testCards(){
         <CardTitle className="maxtitle"><strong>MaxFund Animal Adoption Center</strong> </CardTitle>
         <CardImg className="max"src={Max}></CardImg>
         {/* <h5 className="maxlink">www.maxfund.org</h5> */}
-        <CardBody className="maxtext">Animal Adoption Agency in Denver, CO</CardBody>
-        <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
-      </Card>
-    </Col>
-    <Col className="testing"lg={3}>
+        {/* <CardBody className="maxtext">Animal Adoption Agency in Denver, CO</CardBody> */}
+        {/* <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a> */}
+      {/* </Card> */}
+    {/* </Col> */}
+    {/* <Col className="testing"lg={3}>
       <Card className="summit">
         <CardTitle className="maxtitle"><strong>Summit Junior Tour</strong></CardTitle>
         <CardImg className="max"src={Summit}></CardImg>
         <CardBody className="summittext">Junior Golf Tour in Colorado</CardBody>
         <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer"><Button className="maxbtn">View Site</Button></a>
         {/* <CardBody>lorem ipsum</CardBody> */}
-      </Card>
-    </Col>
-    <Col className="testing2"lg={3}>
+      {/* </Card> */}
+    {/* </Col> */} 
+    {/* <Col className="testing2"lg={3}>
       <Card className="mod">
         <CardTitle className="maxtitle"><strong>Mod Properties</strong></CardTitle>
         <CardImg className="modimg"src={Mod}></CardImg>
@@ -36,10 +36,31 @@ function testCards(){
         
 
         {/* <CardBody>lorem ipsum</CardBody> */}
+      {/* </Card> */}
+    {/* </Col> */}
+  {/* </Row> */} 
+  
+{/* </Container> */}
+<Container>
+  <Row>
+    <Col md={4}>
+      <Card>
+        <div className="modprop">
+        Testing
+        </div>
+      </Card>
+    </Col>
+    <Col md={4}>
+      <Card>
+        Testing
+      </Card>
+    </Col>
+    <Col md={4}>
+      <Card>
+        Testing
       </Card>
     </Col>
   </Row>
-  
 </Container>
     </>
   )
