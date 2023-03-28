@@ -70,6 +70,14 @@
   transform: scale(1.1)
 }
 
+.evo:hover{
+  transform: scale(1.1)
+}
+
+.connective:hover{
+  transform: scale(1.1)
+}
+
 .summit{
   border: 1px solid;
   padding: 10px;
@@ -184,7 +192,7 @@ color: blue;
 .modprop{
   background-image:url(./assets/modps.jpg);
   background-size: cover;
-  height: 400px;
+  height: 300px;
   
   background-position: center;
   box-shadow: 10px 5px 5px gray;
@@ -192,7 +200,7 @@ color: blue;
 .golf{
   background-image:url(./assets/summitps.jpg);
   background-size: cover;
-  height: 400px;
+  height: 300px;
   
   background-position: center;
   box-shadow: 10px 5px 5px gray;
@@ -200,16 +208,34 @@ color: blue;
 .fund{
   background-image:url(./assets/maxps.jpg);
   background-size: cover;
-  height: 400px;
+  height: 300px;
   
   background-position: center;
   box-shadow: 10px 5px 5px gray;
 }
 
+.evo{
+  background-image:url(./assets/evops.jpg);
+  background-size: cover;
+  height: 300px;
+  
+  background-position: center;
+  box-shadow: 10px 5px 5px gray;
+}
+
+
+.connective{
+  background-image:url(./assets/connectiveps.jpg);
+  background-size: cover;
+  height: 300px;
+  
+  background-position: center;
+  box-shadow: 10px 5px 5px gray;
+}
 .central{
   background-image:url(./assets/cent.jpg);
   background-size: cover;
-  height: 380px;
+  height: 300px;
   
   margin-top:20px;
   

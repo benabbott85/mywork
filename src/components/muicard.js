@@ -64,17 +64,17 @@ function testCards(){
 <br/>
   <Row>
   <Col md={5}>
-    <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer">
+    <a href="https://www.evolution-landscape.com/" target='_blank' rel="noreferrer">
       <Card>
-        <div className="fund"></div>
+        <div className="evo"></div>
       </Card>
       </a>
     </Col>
     <Col md={2}></Col>
     <Col md={5}>
-      <a href="https://www.usedautopartsdenver.co/" target='_blank' rel="noreferrer">
+      <a href="https://www.connective-systems.com/" target='_blank' rel="noreferrer">
       <Card>
-        <div className="central">
+        <div className="connective">
        
         </div>
       </Card>
