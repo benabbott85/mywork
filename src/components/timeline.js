@@ -10,7 +10,7 @@ function timeline(){
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="2021 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaBriefcase />}
   >
@@ -46,7 +46,7 @@ function timeline(){
   </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="July 2020 - December 2022"
+    date="July 2020 - December 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaBriefcase />}
   >
@@ -58,8 +58,8 @@ function timeline(){
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2020 - December 2022"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    date="April 2020 - December 2021"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaBriefcase />}
   >
     <h4 className="vertical-timeline-element-title">Senior Full Stack Web Development Tutor</h4>
