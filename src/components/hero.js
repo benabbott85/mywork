@@ -2,13 +2,13 @@ import React from "react";
 
 function Hero (){
     return(
-        <>
+        <div className="hero">
         
-        <h1 className="ben">Ben Abbott</h1>
-        <h2 className="web">Web Designer</h2>
-        <h4 className="denver">Denver, CO</h4>
+        <h1 className="ben"><strong>Ben Abbott</strong></h1>
+        <h3 className="web">Web Designer</h3>
+        <h5 className="denver">Denver, CO</h5>
         
-        </>
+        </div>
     )
 }
 

@@ -8,13 +8,14 @@ function testCards(){
     <>
   
 <h2 className="work"><strong>My <span className="design">Design</span> Work</strong></h2>
-<Container>
+
+<Container className="workctn">
   <Row>
     <Col md={5}>
-      <a href="https://modprop.info/" target='_blank' rel="noreferrer">
+      <a  className="modcard"href="https://modprop.info/" target='_blank' rel="noreferrer">
       <Card>
         <div className="modprop">
-       
+       <h3 className="modhovertext">Visit Site</h3>
         </div>
       </Card>
       </a>
@@ -27,6 +28,8 @@ function testCards(){
       </Card>
       </a>
     </Col>
+
+  
     {/* <Col md={6}>
     <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer">
       <Card>
@@ -55,20 +58,29 @@ function testCards(){
       </Card>
       </a>
     </Col>
-    {/* <Col md={4}>
-      <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer">
-      <Card>
-        <div className="golf"></div>
-      </Card>
-      </a>
-    </Col>
-    <Col md={4}>
+    
+  </Row>
+<br/>
+<br/>
+  <Row>
+  <Col md={5}>
     <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer">
       <Card>
         <div className="fund"></div>
       </Card>
       </a>
-    </Col> */}
+    </Col>
+    <Col md={2}></Col>
+    <Col md={5}>
+      <a href="https://www.usedautopartsdenver.co/" target='_blank' rel="noreferrer">
+      <Card>
+        <div className="central">
+       
+        </div>
+      </Card>
+      </a>
+    </Col>
+    
   </Row>
 </Container>
     </>

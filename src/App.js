@@ -8,7 +8,7 @@ import Hero from "./components/hero"
 import Footer from './components/footer'
 // import Contact from './components/contact'
 import About from './components/about'
-
+import Timeline from './components/timeline'
 function App() {
   return (
     <div className="">
@@ -24,6 +24,7 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
+        <Timeline/>
       <About/>
       <br/>
      <Footer/>

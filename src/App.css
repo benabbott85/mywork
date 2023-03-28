@@ -56,8 +56,11 @@
 }
 
 .modprop:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  
 }
+
+
 
 .golf:hover{
   transform: scale(1.1)
@@ -130,7 +133,7 @@ body{
 }
 
 .ben{
-  margin-left: 600px;
+  margin-left: 590px;
   color: blue
 }
 .design{
@@ -138,16 +141,18 @@ body{
 }
 .web{
   margin-left: 600px;
-  
-
 }
 .denver{
 margin-left: 635px;
 color: blue;
 }
 
+.hero{
+  margin-left: 20px;
+}
+
 .me{
-  color:red;
+  color: blue;
  
 }
 
@@ -216,6 +221,19 @@ color: blue;
   height: 350px;
   width: 350px;
  
+}
+
+.modhovertext{
+  color: red;
+  position: relative;
+  top: 170px;
+  left: 210px;
+  font-weight: bolder;
+  display:none
+}
+
+.workctn{
+  margin-top: 20px;
 }
 
 @keyframes App-logo-spin {
