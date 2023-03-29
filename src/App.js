@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Fav from "./assets/favicon.ico"
+import Fav from "./assets/new.png"
 // import Projects from './components/projects'
 import Card from "./components/muicard"
 import Hero from "./components/hero"
@@ -23,8 +23,9 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
         <Timeline/>
+        <br/>
+        <br/>
       <About/>
       <br/>
      <Footer/>
