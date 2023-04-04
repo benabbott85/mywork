@@ -1,7 +1,7 @@
 {
   "name": "mywork",
   "version": "0.1.0",
-  "homepage": "https://benabbott85.github.io/mywork",
+
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
