@@ -173,7 +173,12 @@ color: blue;
 @media screen and (min-width: 540px) {
   .footalign{
     margin-left: 0px !important;
+    text-align: center;
+  }
 
+  .hero{
+    margin-left: 0px !important;
+    text-align: center;
   }
 }
 
