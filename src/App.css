@@ -165,9 +165,20 @@ color: blue;
 }
 
 .footalign{
-  /* margin-left: 620px; */
-  width: 70vw;
+  margin-left: 620px;
+  /* width: 70vw; */
 }
+
+
+@media screen and (min-width: 540px) {
+  .footalign{
+    margin-left: 0px !important;
+
+  }
+}
+
+
+
 
 .foot{
   color: blue;
