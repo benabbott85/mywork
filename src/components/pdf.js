@@ -11,7 +11,7 @@ function MyApp() {
 
   return (
     <div>
-      <Document file="Ben Abbott.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+      <Document file={Resume} onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>
       <p>
