@@ -1,7 +1,6 @@
 {
   "name": "mywork",
   "version": "0.1.0",
-
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -16,6 +15,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.8.0",
+    "react-pdf": "^6.2.2",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "reactstrap": "^9.0.2",
