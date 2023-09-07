@@ -137,7 +137,8 @@
 body{
   background-image: url(./assets/newback.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  
 }
 
 .ben{
@@ -200,6 +201,34 @@ color: blue;
 }
 
 
+@media screen and (min-width: 393px) {
+  .footalign{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .ben{
+    margin-left: -0px !important;
+    text-align: center;
+  }
+  .web{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .denver{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .pro2{
+    margin-top:18px;
+  }
+
+  .work{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+}
 
 
 .foot{
