@@ -176,7 +176,24 @@ color: blue;
     text-align: center;
   }
 
-  .hero{
+  .ben{
+    margin-left: -0px !important;
+    text-align: center;
+  }
+  .web{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .denver{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .pro2{
+    margin-top:18px;
+  }
+
+  .work{
     margin-left: 0px !important;
     text-align: center;
   }

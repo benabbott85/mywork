@@ -21,7 +21,7 @@ function testCards(){
       </a>
     </Col>
     <Col md={2}></Col>
-    <Col md={5}>
+    <Col md={5} className="pro2">
       <a href="https://summitjuniortour.com/" target='_blank' rel="noreferrer">
       <Card>
         <div className="golf"></div>
@@ -41,7 +41,7 @@ function testCards(){
   <br/>
   <br/>
   <Row>
-  <Col md={5}>
+  <Col md={5} >
     <a href="https://www.maxfund.org/" target='_blank' rel="noreferrer">
       <Card>
         <div className="fund"></div>
@@ -49,7 +49,7 @@ function testCards(){
       </a>
     </Col>
     <Col md={2}></Col>
-    <Col md={5}>
+    <Col md={5} className="pro2">
       <a href="https://www.usedautopartsdenver.co/" target='_blank' rel="noreferrer">
       <Card>
         <div className="central">
@@ -71,7 +71,7 @@ function testCards(){
       </a>
     </Col>
     <Col md={2}></Col>
-    <Col md={5}>
+    <Col md={5} className="pro2">
       <a href="https://www.connective-systems.com/" target='_blank' rel="noreferrer">
       <Card>
         <div className="connective">
