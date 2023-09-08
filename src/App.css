@@ -153,6 +153,7 @@ body{
 }
 .denver{
 margin-left: 635px;
+margin-top:45px;
 color: blue;
 }
 
@@ -227,7 +228,10 @@ color: blue;
     margin-left: 0px !important;
     text-align: center;
   }
-
+.loop{
+  margin-left: 155px !important;
+  text-align: center;
+}
   .pro2{
     margin-top:138px;
   }
