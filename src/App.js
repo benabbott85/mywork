@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="">
       {/* <Nav></Nav> */}
-      <h1 class="row justify-content-start me"><img className="logo" src={Fav} alt="logo"/> Ben Abbott</h1>
+      <h1 class="row justify-content-start me"><img className="logo" src={Fav} alt="logo"/> <span className="me2">Ben Abbott</span></h1>
       {/* <Projects/> */}
       <Hero/>
     

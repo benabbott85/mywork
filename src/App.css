@@ -170,6 +170,13 @@ color: blue;
   /* width: 70vw; */
 }
 
+.pro2{
+  margin-top:0px!important
+}
+
+.me2{
+  display:block;
+}
 
 @media screen and (min-width: 540px) {
   .footalign{
@@ -198,6 +205,7 @@ color: blue;
     margin-left: 0px !important;
     text-align: center;
   }
+
 }
 
 
@@ -221,13 +229,20 @@ color: blue;
   }
 
   .pro2{
-    margin-top:18px;
+    margin-top:138px;
   }
 
   .work{
     margin-left: 0px !important;
     text-align: center;
   }
+.me2{
+  display:none!important
+}
+.mypic{
+  margin-left:35px;
+}
+
 }
 
 
@@ -288,7 +303,7 @@ color: blue;
 
 
 .connective{
-  background-image:url(./assets/connectiveps.jpg);
+  background-image:url(./assets/tool.jpg);
   background-size: cover;
   height: 300px;
   
@@ -336,3 +351,5 @@ color: blue;
     transform: rotate(360deg);
   }
 }
+
+
