@@ -5,8 +5,8 @@ function Hero (){
         <div className="hero">
         
         <h1 className="ben"><strong>Ben Abbott</strong></h1>
-        <Loop/>
-        {/* <h3 className="web">Web Designer</h3> */}
+        {/* <Loop/> */}
+        <h3 className="web">Web Designer | UX/UI Designer | Project Manager</h3>
         <h5 className="denver">Denver, CO</h5>
         
         </div>

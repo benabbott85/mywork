@@ -90,7 +90,7 @@
   margin-top: 35px;
   margin-left: 120px;
   padding: 8px;
-  background:blue;
+  background:#1D9CED;;
   color: red;
   font-weight: bold
 }
@@ -142,8 +142,8 @@ body{
 }
 
 .ben{
-  margin-left: 590px;
-  color: blue
+  margin-left: 350px;
+  color: #1D9CED
 }
 .design{
   color:black
@@ -152,9 +152,9 @@ body{
   margin-left: 600px;
 }
 .denver{
-margin-left: 635px;
-margin-top:45px;
-color: blue;
+margin-left: 595px;
+/* margin-top:45px; */
+color: #1D9CED
 }
 
 .hero{
@@ -162,7 +162,7 @@ color: blue;
 }
 
 .me{
-  color: blue;
+  color: #1D9CED;
  margin-left: 25px;
 }
 
@@ -179,91 +179,22 @@ color: blue;
   display:block;
 }
 
-@media screen and (min-width: 540px) {
-  .footalign{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-
-  .ben{
-    margin-left: -0px !important;
-    text-align: center;
-  }
-  .web{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-  .denver{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-
-  .pro2{
-    margin-top:18px;
-  }
-
-  .work{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-
-}
-
-
-@media screen and (min-width: 393px) {
-  .footalign{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-
-  .ben{
-    margin-left: -0px !important;
-    text-align: center;
-  }
-  .web{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-  .denver{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-.loop{
-  margin-left: 155px !important;
-  text-align: center;
-}
-  .pro2{
-    margin-top:138px;
-  }
-
-  .work{
-    margin-left: 0px !important;
-    text-align: center;
-  }
-.me2{
-  display:none!important
-}
-.mypic{
-  margin-left:35px;
-}
-
-}
 
 
 .foot{
-  color: blue;
+  color: #1D9CED;;
   font-size: 1.5rem;
   
 }
 
 .linkedin{
-  color: blue;
+  color: #1D9CED;;
   margin-left: 12px;
 }
 
 .work{
-  color: blue;
-  margin-left: 600px
+  color: #1D9CED;;
+  margin-left: 655px
 }
 
 .logo{
@@ -357,3 +288,72 @@ color: blue;
 }
 
 
+@media screen and (min-width: 540px) {
+  .footalign{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .ben{
+    margin-left: -0px !important;
+    text-align: center;
+  }
+  .web{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .denver{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .pro2{
+    margin-top:18px;
+  }
+
+  .work{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .loop{
+    /* margin-left: 150px; */
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 393px) {
+  .footalign{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .ben{
+    margin-left: -0px !important;
+    text-align: center;
+  }
+  .web{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .denver{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .pro2{
+    margin-top:138px;
+  }
+
+  .work{
+    margin-left: 0px !important;
+    text-align: center;
+  }
+.me2{
+  display:none!important
+}
+.mypic{
+  margin-left:35px;
+}
+
+}
