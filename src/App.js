@@ -9,7 +9,7 @@ import Footer from './components/footer'
 // import Contact from './components/contact'
 import About from './components/about'
 import Timeline from './components/timeline'
-import Loop from './components/loop'
+// import Loop from './components/loop'
 function App() {
   return (
     <div className="">

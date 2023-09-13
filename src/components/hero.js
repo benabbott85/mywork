@@ -1,5 +1,5 @@
 import React from "react";
-import Loop from './loop'
+// import Loop from './loop'
 function Hero (){
     return(
         <div className="hero">

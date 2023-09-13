@@ -1,7 +1,7 @@
 import React from "react"
 import {Row} from "reactstrap"
 // import Resume from '../assets/Ben Abbott.pdf'
-import Resume from '../components/pdf'
+// import Resume from '../components/pdf'
 function Footer (){
     return(
         <>
