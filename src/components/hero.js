@@ -6,7 +6,7 @@ function Hero (){
         
         <h1 className="ben"><strong>Ben Abbott</strong></h1>
         {/* <Loop/> */}
-        <h3 className="web">Web Designer | UX/UI Designer | Project Manager</h3>
+        <h3 className="web">Web <span className="ben">Designer</span> | <span className="ben">UX/UI</span> Designer | Project <span className="ben">Manager</span></h3>
         <h5 className="denver">Denver, CO</h5>
         
         </div>

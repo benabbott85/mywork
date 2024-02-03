@@ -9,6 +9,7 @@ import Footer from './components/footer'
 // import Contact from './components/contact'
 import About from './components/about'
 import Timeline from './components/timeline'
+import Hover from './components/hovercard'
 // import Loop from './components/loop'
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     {/* <Loop/> */}
       <br/>
       <Card/>
+      {/* <Hover/> */}
         <br/>
         <br></br>
         <br></br>
